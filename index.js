@@ -20,7 +20,6 @@ async function startBot() {
 
   sock.ev.on('creds.update', saveCreds); 
       }
-    }
   }
 });
   // Event pesan masuk
@@ -107,7 +106,5 @@ Contoh: ketik *buyadp* untuk beli ADP.`,
           text: 'Perintah tidak dikenali. Ketik *menu* untuk melihat daftar perintah.',
         });
     }
-  });
-}
-
+  };
 startBot();
